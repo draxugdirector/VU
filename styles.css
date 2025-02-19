@@ -11,7 +11,11 @@ header{
 }
 .title{
             text-align: center;
+            
   
+}
+.title h3{
+            color: #BABDC0;
 }
 .loginForm p{
             font-weight: bold;
