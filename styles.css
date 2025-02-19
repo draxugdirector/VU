@@ -17,7 +17,7 @@ header{
             font-weight: bold;
 
 form {
-            
+            display: flex;
             flex-direction: column;
             gap: 10px;
             background: white;
