@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <img src"">
+    
     <title></title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-      <h1 class="title">Hello World! </h1>
-      <p id="currentTime"></p>
+    <header> 
+      <img src="IMG_2472.png" alt="Victoria University Logo">
+    </header>
+    <div class="title" > 
+        <h1> VICTORIA UNIVERSITY </h1>
+        <h3> Student's Portal</h3>
+    </div>
+
+    <div class="loginForm">
+      <p> Enter Your details to login</p>
+      <form> 
+        <label></label>
+        <input type="text" id="regNo" name="regNo" placeholder="Reg No eg VU-AAA-0000-0000" required>
+        <label></label>
+        <input type="password" id="password" name="password" placeholder="Your password" required>
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+
+        <button type="submit">Sign In</button>
+        </form>
+       <p> Forgot Password?</p>
+    </div>
+  
+
       <script src="script.js"></script>
   </body>
 </html>
