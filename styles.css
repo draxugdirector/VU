@@ -13,6 +13,9 @@ header{
             text-align: center;
   
 }
+.loginForm p{
+            font-weight: bold;
+
 form {
             
             flex-direction: column;
@@ -22,9 +25,6 @@ form {
             border-radius: 5px;
             width: 300px;
 }
-label {
-            font-weight: bold;
-        }
  input {
             padding: 8px;
             border: 1px solid #ccc;
